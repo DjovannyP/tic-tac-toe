@@ -1,8 +1,4 @@
+const startButton = document.querySelector("#startButton");
 
-const startBtn = document.querySelector(".click");
 
-startBtn.addEventListener('click', message);
-
-function message() {
-    alert("I am a good Programmer");
-}
+startButton.addEventListener('click', () => alert("I am a Good Programmer"));
